@@ -1,4 +1,4 @@
-# Library Lending System Frontend Built with React and Flask  
+# Library Lending System Frontend Built with React
 #### By **Abdul Aljawaab**  
 
 ## Description  
@@ -8,30 +8,19 @@ The **Library Lending System** is a web application that allows librarians to ma
 
 ## How to Use  
 ### Requirements    
-* Python 3.6 or higher installed on your system.  
-* Flask for the backend API.  
+* Python 3.6 or higher installed on your system.    
 * React for the frontend.  
 
-### Setup Instructions  
-1. **Clone the Repository**:  
-    ```bash  
-    git clone https://github.com/Aljawaab/Library_Lending_System.git 
-    cd Library_Lending_System  
-    ```
+### Setup Instructions 
+1. **Access the Application**:  
+    Open your browser and navigate to https://github.com/Aljawaab/Library-lending-system-client.git
 
-2. **Set Up the server (Backend)**:  
-    Navigate to the server directory:  
+
+2. **Clone the Repository**:  
     ```bash  
-    cd server  
-    ```  
-    Install Python dependencies:  
-    ```bash  
-    pipenv install 
-    ```  
-    Run the Flask server:  
-    ```bash  
-    python app.py  
-    ```  
+    git clone git@github.com:Aljawaab/Library-lending-system-client.git
+    cd Library-lending-system-client  
+    ```
 
 3. **Set Up the client (Frontend)**:  
     Navigate to the frontend directory:  
@@ -46,10 +35,6 @@ The **Library Lending System** is a web application that allows librarians to ma
     ```bash  
     npm run dev  
     ```  
-
-4. **Access the Application**:  
-    Open your browser and navigate to [http://localhost:
-
 ## Features  
 * **Add New Books**: Add books with details like title, author, and number of copies.  
 * **Manage Borrowing Records**: View, update, and delete borrowing records.  
@@ -66,16 +51,12 @@ The **Library Lending System** is a web application that allows librarians to ma
 
 ## Navigation Instructions  
 When you open the application, you will see a navigation bar with the following options:  
-* **Home**: The homepage of the application.  
-* **Add New Book**: Navigate to the form for adding new books.  
-* **Borrowing Records**: View and manage borrowing records.  
-* **Lend Book**: Navigate to the form for lending books to students.  
+* **Home**: The homepage of the application.
 * **Add Student**: Navigate to the form for adding new students.
-
-## Files in the Project  
-### Backend (server) 
-* **app.py**: The main Flask application file.  
-* **models.py**: Contains the database models for students, books, and lendings.  
+* **Borrowing Records**: View and manage borrowing records.  
+* **Add New Book**: Navigate to the form for adding new books.
+* **Lend Book**: Navigate to the form for lending books to students.  
+* **Borrowing Records**: View and manage borrowing records.  
 
 ### Frontend (client) 
 * **src/AddNewBook.js**: Component for adding new books.  
@@ -88,7 +69,6 @@ When you open the application, you will see a navigation bar with the following 
 * **src/index.css**: Global styles for the application.
 
 ## Future Enhancements  
-* Add a search feature to find specific books, students, or borrowing records.  
 * Implement user authentication for librarians.  
 * Add pagination for the borrowing records table.  
 * Improve error handling and user feedback.
