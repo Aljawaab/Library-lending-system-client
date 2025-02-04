@@ -12,7 +12,7 @@ The **Library Lending System** is a web application that allows librarians to ma
 * React for the frontend.  
 
 ### Setup Instructions 
-1. **Access the Application**:  
+1. **To Access the Application**:  
     Open your browser and navigate to https://github.com/Aljawaab/Library-lending-system-client.git
 
 
